@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext } from "react";
 import PropTypes from "prop-types";  // Import PropTypes
 import run from "../config/gemini";
 import { useState } from "react";
