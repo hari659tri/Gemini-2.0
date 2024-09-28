@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./Sidebar.css";
 import { assets } from "../../assets/assets";
-import { Context } from "../../givenerr/context";
+import { Context } from "../../context/Context";
 const Sidebar = () => {
   const [extended, setextended] = useState(0);
   const{onSent,prevPrompts,setRecentPrompt}=useContext(Context);
